@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-inline: 100px;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    color:#151C22;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    margin-right: 1.9em;
+    text-decoration: none;
+    color:#151C22;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.search-buy a {
+    font-size: 1.5em;
+    margin-left: 2.1em;
+    text-decoration: none;
+    color:#151C22;
+}
+
+
+
+/* MODEL */
+
+.section1 {
+    font-family: "Work Sans", sans-serif;
+    margin-inline: -100px;
+    color:#151C22;
+    height: 38.5em;
+    background-color: #F1F2F4;
+    display: flex;
+}
+
+.text {
+    margin-left: 10em;
+    user-select: none;
+}
+
+.new-collection {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13%;
+}
+
+.text-denim-up {
+    color: #727A82;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: -25px;
+}
+
+.denim {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 8em;
+    margin-left: -4px; 
+}
+
+.button-check {
+    font-weight: 700;
+    display: flex;
+    background-color: #151C22;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 219px;
+}
+
+.button-check a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button-check:hover {
+    background-color: #727A82;
+    color: #151C22;
+}
+
+.arrow {
+    position: relative;
+    top: 20%
+}
+
+.new-collection-photo {
+    position: relative;
+}
+
+.photo1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.photo2 {
+    position: absolute;
+    z-index: 2;
+    padding: 50px 0 0 50px;
+}
+
+.photo3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 300px;
+}
+
+/* BESTSELLERS */
+
+.section2 {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans";
+    
+}
+
+.section2 a {
+    text-decoration: none;
+    color:#151C22;
+}
+
+.head-section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-section2 a:first-child {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.head-section2 a:last-child {
+    font-weight: 500;
+    font-size: 1.1em;
+    border-bottom: 2px solid #151C22;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.product {
+    transition: all ease 1s;
+}
+
+.product:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+.product>img {
+    padding-bottom: 25px;
+}
+
+.product>p {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.product>p:last-child {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+
+/* NEWS */
+
+.updates {
+    margin-top: 70px;
+    display: flex;
+}
+
+.updates>img {
+    width: 60%;
+    height: 100%;
+}
+
+.info {
+    background: url("../images/news/diagonal.png") no-repeat;
+    background-size: 100%;
+    width: 45%;
+    position: relative;
+}
+
+.text-info {
+    margin: 10% 14% 15% 0;
+    height: 550px;
+    background-color: #F1F2F4;
+    padding: 5% 15% 5% 10%;
+}
+
+.text-info h3 {
+    color: #151C22;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.text-info h4 {
+    padding: 30px 0 13px 0;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.text-info p{
+    color: #727A82;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.text-info a {
+    margin-top: 40px; 
+    font-weight: 700;
+    display: flex;
+    background-color: #151C22;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    font-size: 1.1em;
+    width: 219px;
+}
+
+.text-info>a:hover {
+    background-color: #727A82;
+    color: #151C22;
+}
+
+/* SHOP BY CATEGORY */
+
+#category {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 130px;
+    margin-inline: -100px;
+    background-color: #151C22;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.footer h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.con-links {
+    width: 500px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.con-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.soc-med {
+    width: 200px;
+    padding-block: 40px 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.soc-med img {
+    height: 25px;
+}
